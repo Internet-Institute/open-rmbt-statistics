@@ -7,7 +7,7 @@ public interface Constants {
     Double RMBT_GEO_ACCURACY_DETAIL_LIMIT = 10000D;
     Double RMBT_GEO_DISTANCE_DETAIL_LIMIT = 3000D;
     String RMBT_DEFAULT_LANGUAGE = "en";
-    List<String> RMBT_SUPPORTED_LANGUAGES = List.of("de", "en", "hr", "sv", "pl", "es", "is", "fr", "nb", "cs");
+    List<String> RMBT_SUPPORTED_LANGUAGES = List.of("de", "en", "hr", "sv", "pl", "es", "is", "fr", "nb", "cs", "sl");
     String WEASYPRINT_PATH = "/usr/bin/weasyprint";
     String PRINCE_PATH = "/usr/bin/prince";
     String PDF_CONVERTER = "weasyprint";
