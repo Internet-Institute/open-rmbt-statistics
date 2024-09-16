@@ -263,7 +263,7 @@ public class StatisticRepositoryImpl implements StatisticRepository {
                                     ((ONLY_PINNED) ? " AND t.pinned = true" : "") +
                                     ((group && (useMobileProvider)) ? " GROUP BY p.uid, p.mccmnc" : "") +
                                     ((group && (!useMobileProvider)) ? " GROUP BY t.public_ip_as_name, t.public_ip_asn" : "") +
-                                    " ORDER BY count DESC",
+                                    " ORDER BY shortname DESC",
                             signalColumn,
                             where);
         }
