@@ -623,13 +623,13 @@ public class QueryParser {
         } else if (opendataField.equals("cell_area_code")) {
             ret.add("t.cell_location_id");
         } else if (opendataField.equals("gkz")) {
-            ret.add("tl.gkz_bev");
+           // ret.add("tl.gkz_bev");
         } else if (opendataField.equals("lte_rsrp")) {
             ret.add("t.lte_rsrp");
         } else if (opendataField.equals("link_name")) {
             ret.add("tl.link_name");
         } else if (opendataField.equals("kg_nr")) {
-            ret.add("tl.kg_nr_bev");
+           // ret.add("tl.kg_nr_bev");
         }
         return ret;
     }
